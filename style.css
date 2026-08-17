@@ -1,3 +1,10 @@
+/* OTANSA TYPOGRAPHY
+   Body/UI: Montserrat
+   Headings: Bebas Neue
+   Small technical labels: Space Mono
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
 :root {
     --navy: #141A46;
     --orange: #C3480F;
@@ -24,7 +31,7 @@ html {
 body {
     background: var(--cream);
     color: var(--navy);
-    font-family: "DM Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -658,7 +665,7 @@ a {
 
 .services-heading h2 {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(40px, 5vw, 68px);
 
@@ -767,7 +774,7 @@ a {
 
 .service-arrow {
 
-    font-family: "DM Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 
     font-size: 22px;
 
@@ -829,7 +836,7 @@ a {
 
     margin-top: 28px;
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 25px;
 
@@ -1100,7 +1107,7 @@ a {
 
     z-index: 2;
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(48px, 5vw, 72px);
 
@@ -1156,7 +1163,7 @@ a {
 
 .about-content h2 {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(42px, 5vw, 68px);
 
@@ -1246,7 +1253,7 @@ a {
 
     color: var(--navy);
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 12px;
 
@@ -1356,7 +1363,7 @@ a {
 
 .portfolio-heading h2 {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(40px, 5vw, 68px);
 
@@ -1599,7 +1606,7 @@ a {
 
 .portfolio-art strong {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(45px,6vw,78px);
 
@@ -1648,7 +1655,7 @@ a {
 
     margin-top: 60px;
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 48px;
 
@@ -1712,7 +1719,7 @@ a {
 
     display: block;
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 29px;
 
@@ -1772,7 +1779,7 @@ a {
 
     color: #111;
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 35px;
 
@@ -1789,7 +1796,7 @@ a {
 
 .signage-art strong {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 60px;
 
@@ -1887,7 +1894,7 @@ a {
 
     color: var(--navy);
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 35px;
 
@@ -1931,7 +1938,7 @@ a {
 
     color: var(--navy);
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 17px;
 
@@ -1943,7 +1950,7 @@ a {
 
     color: var(--navy) !important;
 
-    font-family: "DM Sans", sans-serif !important;
+    font-family: "Montserrat", sans-serif !important;
 
     font-size: 22px !important;
 
@@ -2143,7 +2150,7 @@ a {
 
 .process-heading h2 {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(40px, 5vw, 68px);
 
@@ -2288,7 +2295,7 @@ a {
 
     margin-top: 25px;
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 24px;
 
@@ -2410,7 +2417,7 @@ a {
 
 .why-content h2 {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(38px, 4vw, 57px);
 
@@ -2526,7 +2533,7 @@ a {
 
 .why-point h3 {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 14px;
 
@@ -2667,7 +2674,7 @@ a {
 
 .contact-intro h2 {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size:
         clamp(44px, 5vw, 70px);
@@ -2802,7 +2809,7 @@ a {
 
     color: var(--navy);
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 13px;
 
@@ -2956,7 +2963,7 @@ a {
     padding: 14px;
 
     font-family:
-        "DM Sans",
+        "Montserrat",
         sans-serif;
 
     font-size: 12px;
@@ -3194,7 +3201,7 @@ a {
 
 .footer-logo span {
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 12px;
 
@@ -3210,7 +3217,7 @@ a {
 
     color: #ff9a72;
 
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 
     font-size: 17px;
 
@@ -3226,7 +3233,7 @@ a {
         rgba(255,255,255,.5) !important;
 
     font-family:
-        "DM Sans",
+        "Montserrat",
         sans-serif !important;
 
     font-size: 12px !important;
@@ -3696,7 +3703,7 @@ a {
 .profile-info h2 {
     margin: 0;
     color: var(--navy);
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
     line-height: 1;
 }
@@ -3792,7 +3799,7 @@ section {
 }
 
 .logo-area span {
-    font-family: "Syne", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 /* Hero entrance */
@@ -4051,4 +4058,68 @@ section {
         animation-iteration-count: 1 !important;
         transition-duration: .01ms !important;
     }
+}
+
+
+/* =========================================
+   OTANSA FONT POLISH
+   ========================================= */
+
+/* Display headings */
+.hero h1,
+.visual-content h2,
+.services-heading h2,
+.service-card h3,
+.about-statement strong,
+.about-content h2,
+.portfolio-heading h2,
+.portfolio-art strong,
+.poster-art strong,
+.print-card strong,
+.signage-art strong,
+.web-art strong,
+.portfolio-info h3,
+.process-heading h2,
+.process-card h3,
+.why-content h2,
+.why-point h3,
+.contact-intro h2,
+.contact-detail strong,
+.footer-logo span,
+.footer-brand > p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+/* Keep normal website text highly readable */
+body,
+.nav-links,
+.hero-description,
+.services-heading > p,
+.service-card > p,
+.about-content p,
+.process-heading > p,
+.process-card p,
+.why-content > p,
+.why-point p,
+.contact-intro > p,
+.footer-description,
+.footer-column a,
+.footer-location,
+.form-heading p,
+.form-group input,
+.form-group select,
+.form-group textarea {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Buttons and navigation stay bold and easy to scan */
+.logo-area span,
+.nav-button,
+.primary-button,
+.secondary-button,
+.project-submit {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
 }
